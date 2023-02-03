@@ -134,7 +134,7 @@ const Login = (props) => {
             to ? navigate(to,{replace:true}) : navigate(-1)
              navigate(-1)
         } catch (error) {
-            console.log(222,"222");
+            console.log("test-merge","222");
         }
     }
 
