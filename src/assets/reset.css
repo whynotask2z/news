@@ -1,0 +1,38 @@
+/* 
+  重置样式
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.clearfix:after {
+    content: "";
+    font-size: 0;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
