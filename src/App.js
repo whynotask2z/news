@@ -9,6 +9,7 @@ import RouterView from "../src/routes/index"
 
 import AuthRouter from "../src/routes/authRouter"
 import rootRouter from "../src/routes/index"
+//test git pull --vscode
 
 //实现组件缓存的插件，导入进来，吧要渲染的入口包起来，然后去路由表中，导出一个withKeepAlive包起来需要缓存的组件
 import { KeepAliveProvider } from "keepalive-react-component"
