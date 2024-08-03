@@ -16,6 +16,7 @@ const Detail = (props) => {
     //获取路由参数
     const routeParams = useParams();
 
+    //test----------ggggggiiiittt
     const [info, setInfo] = useState(null);
     const [extra, setExtra] = useState("");
 

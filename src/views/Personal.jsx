@@ -10,6 +10,7 @@ import { Link } from "react-router-dom"
 
 
 const Personal = (props) => {
+    //test git
     let { info, clearUserInfo, clearStoreList } = props;
     console.log(info, "info");
     const navigate = useNavigate();
