@@ -9,6 +9,7 @@ import { updateInfo } from "../api"
 
 
 const Update = (props) => {
+        //test merge dev-2
     let { info, queryUserInfoAsync } = props;
     let [pic, setPic] = useState(
         [

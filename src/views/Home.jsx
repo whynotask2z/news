@@ -8,6 +8,7 @@ import SkeletonAgain from "../components/SkeletonAgain"
 import Newsitem from "../components/NewsItem"
 
 const Home = () => {
+    //test merge dev-2
     const forMatTime = (time, templete) => {
         if (typeof time != "string") {
             time = new Date().toLocaleString("zh-CN", { hour12: false })

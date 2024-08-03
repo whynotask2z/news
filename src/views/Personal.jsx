@@ -13,6 +13,7 @@ const Personal = (props) => {
     //test git
     let { info, clearUserInfo, clearStoreList } = props;
     console.log(info, "info");
+        //test merge dev-2
     const navigate = useNavigate();
     const toUpdate = () => {
         navigate("/update")
